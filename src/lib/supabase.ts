@@ -17,8 +17,8 @@ export interface AppReleaseInfo {
 export const FALLBACK_RELEASE: AppReleaseInfo = {
   version: '1.0.0',
   buildNumber: 1,
-  fileSizeMb: 130.0,
-  releaseDate: 'Sep 4, 2026',
+  fileSizeMb: 80.0,
+  releaseDate: 'Sep 1, 2026',
   downloadUrl: 'https://pub-3c9a9ceed97f4e45b2215723d77fa85d.r2.dev/topit/topit-latest.apk',
   changelog: [
     'Initial public release with lightning-fast top-up services',
@@ -32,29 +32,6 @@ export const FALLBACK_RELEASE: AppReleaseInfo = {
 };
 
 export async function fetchLatestRelease(): Promise<AppReleaseInfo> {
-  try {
-    // Attempt to query 'app_releases' table if present in Supabase
-    const { data, error } = await supabase
-      .from('app_releases')
-      .select('*')
-      .order('created_at', { ascending: false })
-      .limit(1)
-      .single();
-
-    if (error || !data) {
-      return FALLBACK_RELEASE;
-    }
-
-    return {
-      version: data.version || FALLBACK_RELEASE.version,
-      buildNumber: data.build_number || FALLBACK_RELEASE.buildNumber,
-      fileSizeMb: data.file_size_mb || FALLBACK_RELEASE.fileSizeMb,
-      releaseDate: data.created_at ? new Date(data.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Sep 1, 2026',
-      downloadUrl: FALLBACK_RELEASE.downloadUrl, // Force use of R2 URL instead of DB
-      changelog: data.changelog || FALLBACK_RELEASE.changelog,
-    };
-  } catch (err) {
-    console.warn('Failed to load dynamic release info from Supabase, using fallback configuration', err);
-    return FALLBACK_RELEASE;
-  }
+  // Disconnected from Supabase. Returning static fallback data.
+  return FALLBACK_RELEASE;
 }
