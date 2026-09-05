@@ -20,10 +20,9 @@ These terms apply to all registered users, visitors, and others who access or us
 
 ---
 
-## 3. Wallet Funding & Virtual Accounts
-1. **Dedicated Virtual Accounts:** Topit provides dedicated 24/7 virtual bank account numbers powered by licensed payment partners (e.g., Monnify, Paystack) for instant wallet funding.
-2. **Automatic Crediting:** All deposits are credited automatically to your Topit wallet balance. You are responsible for ensuring that bank transfers are made to your assigned account number.
-3. **Prepaid Utility Balance:** Topit is not a bank; funds in your Topit wallet represent prepaid utility credits for mobile data, airtime, and value-added telecommunication services.
+## 3. Wallet Funding
+1. **Automatic Crediting:** All deposits are credited automatically to your Topit wallet balance. You are responsible for ensuring that bank transfers are made to your assigned account number.
+2. **Prepaid Utility Balance:** Topit is not a bank; funds in your Topit wallet represent prepaid utility credits for mobile data, airtime, and value-added telecommunication services.
 
 ---
 

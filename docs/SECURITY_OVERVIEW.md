@@ -25,10 +25,4 @@ Topit leverages native Android Keystore and iOS Secure Enclave technologies:
 - Your fingerprints and Face ID scans are processed locally by your device hardware and never transmitted to Topit servers.
 - Transaction signing keys are stored in encrypted hardware keystores accessible only when your device is unlocked.
 
----
 
-## 4. Dedicated Virtual Bank Account Security
-Virtual accounts assigned to Topit users are issued through CBN-licensed payment partners (Monnify, Paystack) and protected by:
-- Automated webhook HMAC-SHA512 signature validation.
-- Real-time ledger reconciliation.
-- Multi-factor authenticated administrative oversight.

@@ -23,9 +23,8 @@ export const FALLBACK_RELEASE: AppReleaseInfo = {
   changelog: [
     'Initial public release with lightning-fast top-up services',
     'Instant Airtime and Data top-up for MTN, Airtel, and Glo',
-    'Dedicated Virtual Account wallet funding with instant balance update',
     '0.5% instant cashback on all airtime and data purchases',
-    'Smart automations and scheduled auto-renewals',
+    'Data automations and scheduled auto-renewals',
     'Instant receipt generation & sharing in PDF and PNG',
     'Biometric security & instant transaction verification'
   ]

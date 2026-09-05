@@ -34,9 +34,8 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
         ]
       },
       {
-        title: '3. Wallet Funding & Virtual Accounts',
+        title: '3. Wallet Funding',
         content: [
-          'Topit provides dedicated 24/7 virtual bank account numbers powered by licensed payment partners (e.g., Monnify, Paystack) for instant wallet funding.',
           'All deposits are credited automatically to your Topit wallet balance. You are responsible for ensuring that bank transfers are made to your assigned account number.',
           'Topit is not a bank; funds in your Topit wallet represent prepaid utility credits for mobile data, airtime, and value-added telecommunication services.'
         ]
@@ -91,7 +90,6 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
         content: [
           'Account Information: Name, email address, phone number, and encrypted password hash created during registration.',
           'Transaction Data: Records of data plans purchased, airtime amounts, recipient phone numbers, timestamps, and digital receipts.',
-          'Virtual Account Information: Assigned bank names and virtual account numbers generated for wallet funding.',
           'Device & Security Tokens: Expo Push Notification tokens and anonymous device IDs for push alert delivery and account protection.'
         ]
       },
@@ -150,7 +148,7 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
       {
         title: '3. Uncredited Bank Transfer Deposits',
         content: [
-          'Virtual account transfers reflect in your wallet within 3 to 10 seconds. In rare cases of interbank network switching delays (NIP downtime), deposits may take longer.',
+          'Deposits reflect in your wallet within 3 to 10 seconds. In rare cases of interbank network switching delays (NIP downtime), deposits may take longer.',
           'If your bank transfer has not reflected within 15 minutes, tap "Contact Support" in Settings or email support@websyncdigital.com with your transaction session ID or bank debit proof for manual verification.'
         ]
       },
@@ -181,12 +179,6 @@ export const LEGAL_DOCS: Record<string, LegalDoc> = {
         content: [
           'To prevent brute-force attacks on your wallet, Topit enforces a strict security lockout: entering an incorrect 4-digit PIN 4 consecutive times immediately locks the keypad for 2 minutes (120 seconds).',
           'A live countdown timer is displayed, and all transactions are halted until the cooldown expires or you reset your PIN using your master account password.'
-        ]
-      },
-      {
-        title: '3. Dedicated Virtual Bank Account Security',
-        content: [
-          'Virtual accounts assigned to Topit users are issued through CBN-licensed payment partners and protected by automated webhook validation, HMAC signature verification, and automated ledger balancing.'
         ]
       }
     ]

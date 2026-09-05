@@ -48,8 +48,7 @@ What makes Topit revolutionary:
 • Curated for the Way You Live: Daily streams, weekly grinds, midnight downloads — tailored bundles with real-time balance tracking.
 • Recharge Reimagined: Top up airtime on any Nigerian network with a single fluid swipe.
 • Real Cashback on Every Byte: Topit pays you 0.5% instant cashback on every single transaction. Real spendable cash, straight into your wallet.
-• Dedicated Virtual Bank Accounts: Instant dedicated virtual account funding with zero-delay automated deposits.
-• Smart Automations: Schedule recurring data top-ups daily, weekly, or monthly so you never experience unexpected disconnections.
+• Data Automations: Schedule recurring data top-ups daily, weekly, or monthly so you never experience unexpected disconnections.
 • Instant Branded Receipts: Download and share professional PDF and PNG transaction receipts with reference tracking.
 • Hardware-Level Security: Protected by biometric fingerprint and Face ID authentication with 4-strike security lockout defense.
 
@@ -76,9 +75,9 @@ It is not just better data. It is the future of staying connected.`,
     },
     {
       id: 'slide-2',
-      title: 'Set Smart Automations & Never Run Out of Data',
+      title: 'Set Data Automations & Never Run Out of Data',
       subtitle: 'Automate data and airtime renewals in seconds',
-      badge: 'Smart Automations',
+      badge: 'Data Automations',
       iconName: 'Clock',
       colorGradient: 'from-blue-500/20 via-indigo-500/10 to-transparent',
       screenType: 'automations',
